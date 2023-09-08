@@ -1,6 +1,6 @@
 ﻿namespace BusinessManagementStudioClassLibrary
 {
-    public class Class1
+    public class CreateCompany
     {
 
     }
