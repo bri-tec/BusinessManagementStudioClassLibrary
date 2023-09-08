@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="BMSTestProject\**" />
+    <EmbeddedResource Remove="BMSTestProject\**" />
+    <None Remove="BMSTestProject\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 
